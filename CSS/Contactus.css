@@ -1,0 +1,333 @@
+/* CSS code here */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&display=swap');
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../Images/pexels-pixabay-414660.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* hide scrollbar but allow scrolling */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navbar Css  */
+#main-nav {
+    background-color: #1c0b19;
+    width: auto;
+    padding: 20px;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    font-size: 3.5rem;
+    color: #fff6ed;
+    transition: background-image 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #1c0b19;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition-delay: 0.9ms;
+    background-color: #fff6ed;
+}
+
+#Nav-list {
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    color: #fff6ed;
+    margin: 10px;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #1c0b19;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition-delay: 0.9ms;
+    background-color: #fff6ed;
+}
+/* Navbar Css End */
+
+/* Main Content CSS Start */
+.container{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.card{
+    background-color: #fff6ed;
+    opacity: 0.85;
+    animation: mymove 3s infinite;
+}
+
+/* .card-header{
+    height: 180px;
+} */
+.cont_pg_para{
+    font-size: 22px;
+}
+.contact_pg_logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: -50px;
+    border-radius: 100px;
+}
+.contact_pg_text{
+    display: inline-block;
+    font-size: 70px;
+    font-family: 'Noto Serif', serif;
+    margin-left: 90px;
+    color: #1c0b19;
+}
+.cont_pg_headings{
+    color: #1c0b19;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+iframe{
+    animation: mymove 3s infinite;
+}
+@keyframes mymove {
+    0% {
+        animation-delay: 5s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    25% {
+        animation-delay: 5s;
+        box-shadow: 0 4px 8px 0 #904d84, 0 6px 20px 0 #904d84;
+    }
+
+    50% {
+        animation-delay: 5s;
+        box-shadow: 0 2px 6px 0 #65325c, 0 4px 18px 0 #65325c;
+
+    }
+
+    75% {
+        animation-delay: 5s;
+        box-shadow: 0 2px 6px 0 #1c0b19, 0 4px 18px 0 #1c0b19;
+
+    }
+
+    100% {
+        animation-delay: 5s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+}
+/* About Comapny Section CSS */
+.cont_abcomp_logo{
+    color: #5c4d45;
+}
+.cont_phone_logo{
+    color: #19a7a4;
+}
+.cont_mail_logo{
+    color: #c71610;
+}
+/* Follow US CSS */
+.cont_follow_icn{
+    color: #FF0000;
+}
+/* Follow US CSS */
+/* About Company Section Css  */
+/* Social Media Icons CSS */
+.contact_pg_follow_icn{
+    font-size: 40px;
+}
+.contact_pg_insta_icn{
+    color: #bc2a8d;
+}
+.contact_pg_pint_icn{
+    color: #c8232c;
+}
+.contact_pg_fb_icn{
+    color: #4267B2;
+}
+.contact_pg_twit_icn{
+    color: #1DA1F2;
+}
+/* Social Media Icon CSS */
+/* Banking Icons CSS */
+.contact_credit_logo{
+    color: #0074CC;
+}
+.cont_visa_card{
+    color: #1434CB;
+}
+.cont_master_card{
+    color: #eb001b;
+}
+.cont_amex_card{
+    color: #016FD0;
+}
+.cont_disc_card{
+    color: #F9A021;
+}
+/* Banking Icons CSS */
+/* Main Content CSS End */
+/* Footer CSS */
+footer {
+    background-color: #1c0b19;
+    color: #fff6ed;
+    margin-top: 100px;
+}
+
+.footer-follow-icn {
+    font-size: 40px;
+}
+
+.follow-insta-icn:hover {
+    color: #bc2a8d;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.follow-pint-icn:hover {
+    color: #c8232c;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.follow-fb-icn:hover {
+    color: #4267B2;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.follow-twit-icn:hover {
+    color: #1DA1F2;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+/* Footer CSS */
+
+/* Media Queries Start*/
+
+@media (max-width: 992px){
+    .contact_pg_logo{
+        max-width: 120px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .contact_pg_text{
+        margin-top: 10px;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .contact_pg_logo{
+        width: 150px;
+        height: auto;
+        margin-left: 100px;
+        margin-top: -40px;
+    }
+
+    .contact_pg_text{
+        display: inline-block;
+        margin-top: 0px;
+        margin-left: 40px;
+        /* font-size: 8rem; */
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 2.5rem;
+        color: #fff6ed;
+        transition: background-image 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+
+    #Nav-list {
+        font-size: 1.5rem;
+    }
+
+    .contact_pg_logo{
+        width: 180px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+
+    .contact_pg_text{
+        /* display: block; */
+        margin-top: 0px;
+        margin-left: 50px;
+        font-size: 3rem;
+    }
+
+    iframe{
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media (max-width: 461px) {
+    #Nav-list {
+        font-size: 1.5rem;
+    }
+
+    .container{
+        margin-top: 300px;
+        margin-bottom: 200px;
+    }
+
+    .contact_pg_logo{
+        /* display: block; */
+        width: 180px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 120px;
+    }
+    .contact_pg_text{
+        /* display: block; */
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .navbar-brand{
+        font-size: 1.7rem;
+    }
+    
+    #Nav-list {
+        font-size: 1.2rem;
+    }
+
+    .contact_pg_logo{
+        width: 100px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+    .contact_pg_text{
+        /* display: block; */
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 2rem;
+    }
+}
+
+/* Media Queries End */

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&display=swap');
+
+body {
+    overflow-y: scroll;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif, 'Times New Roman', Times, serif;
+    background-image: url(../Images/h4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+    /* background-color: #f4e7f1; */
+}
+
+/* hide scrollbar but allow scrolling */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navbar Css  */
+#main-nav {
+    background-color: #1c0b19;
+    width: auto;
+    padding: 20px;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    font-size: 3.5rem;
+    color: #fff6ed;
+    transition: background-image 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #1c0b19;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition-delay: 0.9ms;
+    background-color: #fff6ed;
+}
+
+#Nav-list {
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    color: #fff6ed;
+    margin: 10px;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #1c0b19;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition-delay: 0.9ms;
+    background-color: #fff6ed;
+}
+/* Navbar Css End */
+
+/* Main Content Css */
+
+.card {
+    background-color: #f4e7f1;
+    background-image: url(../Images/h2.png);
+    background-repeat: repeat-y;
+    background-position: center top;
+    display: block;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    0% {
+        animation-delay: 5s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    25% {
+        animation-delay: 5s;
+        box-shadow: 0 4px 8px 0 #904d84, 0 6px 20px 0 #904d84;
+    }
+
+    50% {
+        animation-delay: 5s;
+        box-shadow: 0 2px 6px 0 #65325c, 0 4px 18px 0 #65325c;
+
+    }
+
+    75% {
+        animation-delay: 5s;
+        box-shadow: 0 2px 6px 0 #1c0b19, 0 4px 18px 0 #1c0b19;
+
+    }
+
+    100% {
+        animation-delay: 5s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+}
+
+.Book_head {
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1c0b19;
+    font-weight: bolder;
+    /* word-spacing: 30px;
+    letter-spacing: 15px; */
+    animation: fadeInAnimation 5s both;
+    font-size: 70px;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+label {
+    font-weight: bold;
+    font-size: larger;
+}
+
+.submit_btn {
+    background-color: #1c0b19;
+    border: 2px solid #fff6ed;
+    color: #fff6ed;
+    opacity: 0.75;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 120px;
+}
+
+.submit_btn:hover {
+    background-color: #fff6ed;
+    border: 2px solid #1c0b19;
+    border-radius: 20px;
+    color: #1c0b19;
+    transition: 1s;
+    font-size: 22px;
+    transition-delay: 0.1s;
+    width: 130px;
+}
+
+.reset_btn {
+    background-color: #1c0b19;
+    border: 2px solid #fff6ed;
+    color: #fff6ed;
+    opacity: 0.75;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 120px;
+}
+
+.reset_btn:hover {
+    background-color: #fff6ed;
+    border: 2px solid #1c0b19;
+    /* border-radius: 20px; */
+    color: #1c0b19;
+    transition: 1s;
+    font-size: 22px;
+    transition-delay: 0.1s;
+    width: 130px;
+}
+
+.flatpickr-disabled {
+    color: red !important;
+}
+
+.flatpickr-enabled {
+    color: green !important;
+}
+
+.flatpickr-booked-text {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Main Content Css End */
+/* Footer CSS */
+footer {
+    background-color: #1c0b19;
+    color: #fff6ed;
+    margin-top: 100px;
+}
+
+.footer-follow-icn {
+    font-size: 40px;
+}
+
+.follow-insta-icn:hover {
+    color: #bc2a8d;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.follow-pint-icn:hover {
+    color: #c8232c;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.follow-fb-icn:hover {
+    color: #4267B2;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.follow-twit-icn:hover {
+    color: #1DA1F2;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+/* Footer CSS */
+
+/* Media Queries Start */
+@media (max-width: 768px){
+    .Book_head{
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 500px){
+    .navbar-brand {
+        font-size: 2.1rem;
+    }
+    .Book_head{
+        margin-top: 200px;
+        font-size: 2rem;
+    }
+}
+/* Media Queries End */

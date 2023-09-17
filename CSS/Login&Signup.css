@@ -1,0 +1,162 @@
+/* Login & Signup Page Css */
+body {
+    background-size: cover; 
+    /* background: rgba(0, 0, 0, 0.485); */
+    background-image: url(../Images/h4.jpg);
+    background-repeat: inherit;
+    background-size: cover;
+    opacity: 0.75;
+    object-fit: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.card {
+    background-color: #1c0b19;
+    color: #fff6ed;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url(../Images/h.png);
+    background-repeat: repeat-y;
+}
+
+.lg-btn {
+    border: 1px solid #fff6ed;
+    color: #fff6ed;
+    background-color: #1c0b19;
+}
+
+.lg-btn:hover {
+    background-color: #f4e7f1;
+    color: #1c0b19;
+    border: 1px solid #fff6ed;
+    transition: 1s;
+    transition-delay: 0.2s;
+}
+
+.lg-description-area {
+    /* background-color: #4D392E; */
+    background-color: #fff6ed;
+    color: #1c0b19;
+    background-image: url(../Images/h.png);
+    background-repeat: repeat-y;
+}
+
+#lg-icon1 {
+    color: #3B5998;
+    transition: transform 1s ease-in-out;
+    transition-delay: 0.5ms;
+}
+
+#lg-icon1:hover {
+    transform: scale(1.5);
+    animation: none;
+}
+
+#lg-icon2 {
+    color: #c71610;
+    transition: transform 1s ease-in-out;
+    transition-delay: 0.5ms;
+}
+
+#lg-icon2:hover {
+    transform: scale(1.5);
+    animation: none;
+}
+
+#lg-icon3 {
+    color: #128C7E;
+    transition: transform 1s ease-in-out;
+    transition-delay: 0.5ms;
+}
+
+#lg-icon3:hover {
+    transform: scale(1.5);
+    animation: none;
+}
+
+.crt-acc-btn {
+    border: 2px solid #4D392E;
+    color: #4D392E;
+    background-color: #fff6ed;
+}
+
+.crt-acc-btn:hover {
+    background-color: #4D392E;
+    color: #fff6ed;
+    border: 2px solid #fff6ed;
+    transition: 1s;
+    transition-delay: 0.2s;
+}
+
+/* Login & Signup Page Css */
+/* Signup Page CSS Start */
+.sp-btn {
+    border: 1px solid #fff6ed;
+    color: #fff6ed;
+    background-color: #1c0b19;
+}
+
+.sp-btn:hover {
+    background-color: #f4e7f1;
+    color: #1c0b19;
+    border: 1px solid #fff6ed;
+    transition: 1s;
+    transition-delay: 0.2s;
+}
+
+#sp-icon1 {
+    color: #3B5998;
+    transition: transform 1s ease-in-out;
+    transition-delay: 0.5ms;
+}
+
+#sp-icon1:hover {
+    transform: scale(1.5);
+    animation: none;
+}
+
+#sp-icon2 {
+    color: #c71610;
+    transition: transform 1s ease-in-out;
+    transition-delay: 0.5ms;
+}
+
+#sp-icon2:hover {
+    transform: scale(1.5);
+    animation: none;
+}
+
+#sp-icon3 {
+    color: #128C7E;
+    transition: transform 1s ease-in-out;
+    transition-delay: 0.5ms;
+}
+
+#sp-icon3:hover {
+    transform: scale(1.5);
+    animation: none;
+}
+.sp-description-area {
+    /* background-color: #4D392E; */
+    background-color: #fff6ed;
+    color: #1c0b19;
+    background-image: url(../Images/h.png);
+    background-repeat: repeat-y;
+}
+/* Signup Page CSS End */
+/* Forgot Password Css Start */
+.fg-btn {
+    border: 1px solid #fff6ed;
+    color: #fff6ed;
+    background-color: #1c0b19;
+}
+
+.fg-btn:hover {
+    background-color: #f4e7f1;
+    color: #1c0b19;
+    border: 1px solid #fff6ed;
+    transition: 1s;
+    transition-delay: 0.2s;
+}
+/* Forgot Password Css End */

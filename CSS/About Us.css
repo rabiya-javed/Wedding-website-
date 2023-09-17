@@ -1,0 +1,287 @@
+/* CSS code here */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&display=swap');
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(../Images/pexels-pixabay-265856.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* hide scrollbar but allow scrolling */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navbar Css  */
+#main-nav {
+    background-color: #1c0b19;
+    width: auto;
+    padding: 20px;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    font-size: 3.5rem;
+    color: #fff6ed;
+    transition: background-image 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.navbar-brand:hover {
+    color: #1c0b19;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition-delay: 0.9ms;
+    background-color: #fff6ed;
+}
+
+#Nav-list {
+    font-size: 1.8rem;
+}
+
+.nav-link {
+    color: #fff6ed;
+    margin: 10px;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #1c0b19;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition-delay: 0.9ms;
+    background-color: #fff6ed;
+}
+/* Navbar Css End */
+/* Main Content CSS Start */
+.container{
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.card{
+    background-color: #fff6ed;
+    opacity: 0.85;
+    animation: mymove 3s infinite;
+}
+
+/* .card-header{
+    height: 180px;
+} */
+
+.about_pg_logo{
+    max-width: 150px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: -50px;
+    border-radius: 100px;
+}
+.about_pg_text{
+    display: inline-block;
+    font-size: 70px;
+    font-family: 'Noto Serif', serif;
+    margin-left: 90px;
+    color: #1c0b19;
+}
+.about_card_banner{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+.cont_pg_headings{
+    color: #1c0b19;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+iframe{
+    animation: mymove 3s infinite;
+}
+@keyframes mymove {
+    0% {
+        animation-delay: 5s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    25% {
+        animation-delay: 5s;
+        box-shadow: 0 4px 8px 0 #904d84, 0 6px 20px 0 #904d84;
+    }
+
+    50% {
+        animation-delay: 5s;
+        box-shadow: 0 2px 6px 0 #65325c, 0 4px 18px 0 #65325c;
+
+    }
+
+    75% {
+        animation-delay: 5s;
+        box-shadow: 0 2px 6px 0 #1c0b19, 0 4px 18px 0 #1c0b19;
+
+    }
+
+    100% {
+        animation-delay: 5s;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    }
+}
+.about_description{
+    font-size: 22px;
+}
+.about_appointment_btn{
+    margin-left: 33%;
+    border: 2px solid #fff6ed;
+    color: #fff6ed;
+    text-transform: uppercase;
+    background-color: #1c0b19;
+}
+.about_appointment_btn:hover{
+    background-color: #4D392E;
+    color: #fff6ed;
+    border: 2px solid #1c0b19;
+    transition: 1s;
+    transition-delay: 0.2s;
+}
+/* Main Content CSS End */
+/* Footer CSS */
+footer {
+    background-color: #1c0b19;
+    color: #fff6ed;
+    margin-top: 100px;
+}
+
+.footer-follow-icn {
+    font-size: 40px;
+}
+
+.follow-insta-icn:hover {
+    color: #bc2a8d;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.follow-pint-icn:hover {
+    color: #c8232c;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.follow-fb-icn:hover {
+    color: #4267B2;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+.follow-twit-icn:hover {
+    color: #1DA1F2;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+
+/* Footer CSS */
+
+/* Media Queries Start*/
+
+@media (max-width: 992px){
+    .about_pg_logo{
+        max-width: 120px;
+        height: auto;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+
+    .about_pg_text{
+        margin-top: 10px;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .about_pg_logo{
+        width: 150px;
+        height: auto;
+        margin-left: 100px;
+        margin-top: -40px;
+    }
+
+    .about_pg_text{
+        display: inline-block;
+        margin-top: 0px;
+        margin-left: 40px;
+        /* font-size: 8rem; */
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 2.5rem;
+        color: #fff6ed;
+        transition: background-image 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+
+    #Nav-list {
+        font-size: 1.5rem;
+    }
+
+    .about_pg_logo{
+        /* display: block; */
+        width: 90px;
+        height: auto;
+        margin-top: -30px;
+        margin-left: 50px;
+    }
+
+    .about_pg_text{
+        /* display: block; */
+        margin-top: 20px;
+        margin-left: 20px;
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 461px) {
+    #Nav-list {
+        font-size: 1.5rem;
+    }
+
+    .container{
+        margin-top: 300px;
+        margin-bottom: 200px;
+    }
+
+    .about_pg_logo{
+        /* display: block; */
+        width: 90px;
+        height: auto;
+        margin-top: 0px;
+        margin-left: 120px;
+    }
+    .about_pg_text{
+        /* display: block; */
+        margin-top: 20px;
+        margin-left: 50px;
+        font-size: 3rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .navbar-brand{
+        font-size: 1.7rem;
+    }
+    
+    #Nav-list {
+        font-size: 1.2rem;
+    }
+
+}
+
+/* Media Queries End */

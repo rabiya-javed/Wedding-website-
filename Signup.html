@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/Login&Signup.css">
+    <link rel="icon" href="Images/Main_Logo.jpeg">
+    <title>Create Account</title>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-xl-10">
+                    <div class="card">
+                        <div class="row g-0">
+                            <div class="col-lg-6 lg-form-side">
+                                <div class="card-body p-md-5 mx-md-4">
+                                    <div class="text-center col-md-12">
+                                        <img src="Images/Main_Logo.jpeg" alt="logo" style="width: 185px; border-radius: 50%;">
+                                        <h3 class="mb-5 mt-4 pb-1 logo-name">Wedding Planner</h3>
+                                    </div>
+                                    <form>
+                                        <div class="row">
+                                            <h4 class="mb-4 text-center login-heading mb-5">Create Your Account
+                                            </h4>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-3">
+                                                    <div class="input-group">
+                                                        <input type="text" id="sp_f_name" class="form-control sp_input"
+                                                            placeholder="First Name">
+                                                        <span class="input-group-text">
+                                                            <i class="fa-solid fa-signature"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group mb-3">
+                                                    <div class="input-group">
+                                                        <input type="text" id="sp_l_name" class="form-control sp_input"
+                                                            placeholder="Last Name">
+                                                        <span class="input-group-text">
+                                                            <i class="fa-solid fa-signature"></i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group mb-3">
+                                                <div class="input-group">
+                                                    <input type="text" id="sp_contact" class="form-control sp_input"
+                                                        placeholder="Enter Your Contact#">
+                                                    <span class="input-group-text">
+                                                        <i class="fa-regular fa-address-book"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group mb-3">
+                                                <div class="input-group">
+                                                    <input type="email" id="sp_email" class="form-control sp_input"
+                                                        placeholder="Enter Your Email">
+                                                    <span class="input-group-text">
+                                                        <i class="fa-solid fa-at"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group mb-3">
+                                                <div class="input-group">
+                                                    <input type="password" id="sp_password"
+                                                        class="form-control sp_input" placeholder="Enter Your Password">
+                                                    <span class="input-group-text">
+                                                        <i class="fa fa-eye pass-show"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group mb-3">
+                                                <div class="input-group">
+                                                    <input type="password" id="sp_conf_password"
+                                                        class="form-control sp_input" placeholder="Confirm Passowrd">
+                                                    <span class="input-group-text">
+                                                        <i class="fa fa-eye conf_pass-show"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="form-group text-center pt-1 mb-3 pb-1">
+                                                <button class="btn sp-btn mb-3 px-5" target="self"
+                                                    onclick="signup()">Signup</button>
+                                            </div>
+                                            <div class="mb-3 text-center">
+                                                <button class="btn"><i id="sp-icon1"
+                                                        class="fa-2xl fa-brands fa-facebook fa-beat"></i></button>
+                                                <button class="btn"><i id="sp-icon2"
+                                                        class="fa-2xl fa-brands fa-google fa-beat"></i></button>
+                                                <button class="btn"><i id="sp-icon3"
+                                                        class="fa-2xl fa-brands fa-whatsapp fa-beat"></i></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-center lg_text_page sp-description-area">
+                                <div class="text-center px-3 py-4 p-md-5 mx-md-4">
+                                    <h3 class="mb-4">You Make My Heart Smile</h3>
+                                    <p>"And Sudednly you just know it's time to start something new and trust in the
+                                        magic of beginnings."</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- External Javascript Link -->
+    <script src="Javascript/Project.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+    <!-- Font Awesome File Link -->
+    <script src="https://use.fontawesome.com/065f79e908.js"></script>
+    <!-- Jquery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(function () {
+            $('.pass-show').click(function (event) {
+                $(this).toggleClass('fa-eye-slash');
+                var abc = $('#sp_password').attr("type");
+                if (abc == "password") {
+                    $('#sp_password').attr("type", "text");
+                }
+                else {
+                    $('#sp_password').attr("type", "password");
+                }
+            })
+        })
+        $(function () {
+            $('.conf_pass-show').click(function (event) {
+                $(this).toggleClass('fa-eye-slash');
+                var abc = $('#sp_conf_password').attr("type");
+                if (abc == "password") {
+                    $('#sp_conf_password').attr("type", "text");
+                }
+                else {
+                    $('#sp_conf_password').attr("type", "password");
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

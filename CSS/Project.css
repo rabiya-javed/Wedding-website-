@@ -1,0 +1,278 @@
+        /* CSS code here */
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@900&display=swap');
+
+        body {
+            /* overflow-y: scroll; */
+            /* overflow-x: hidden; */
+            margin: 0px;
+            padding: 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        /* hide scrollbar but allow scrolling */
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        /* Navbar Css  */
+        #main-nav {
+            background-color: #1c0b19;
+            width: auto;
+            padding: 20px;
+        }
+
+        .navbar-brand {
+            cursor: pointer;
+            font-size: 3.5rem;
+            color: #fff6ed;
+            transition: background-image 0.5s ease-in-out, color 0.5s ease-in-out;
+        }
+
+        .navbar-brand:hover {
+            color: #1c0b19;
+            border-radius: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            transition-delay: 0.9ms;
+            background-color: #fff6ed;
+        }
+
+        #Nav-list {
+            font-size: 1.8rem;
+        }
+
+        .nav-link {
+            color: #fff6ed;
+            margin: 10px;
+            transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+        }
+
+        .nav-link:hover {
+            color: #1c0b19;
+            border-radius: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+            transition-delay: 0.9ms;
+            background-color: #fff6ed;
+        }
+
+        /* Navbar Css End */
+
+        /* Carousel Css START*/
+        .carousel-inner img {
+            height: 100vh;
+            width: 100%;
+            object-fit: cover;
+            /* opacity: 0.8; */
+        }
+
+        .carousel-caption {
+            margin-bottom: 5%;
+            font-size: 2.3rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            /* color: #fff6ed; */
+        }
+
+        .carousel-h-text {
+            /* font-size: 80px; */
+            color: #FFFFFF;
+            font-size: 3.5rem;
+        }
+
+
+
+        /* Carousel Css END*/
+        /* Cards Css  */
+        .card-container {
+            margin-top: 100px;
+        }
+
+        .Booknow-heading {
+            margin-bottom: 95px;
+            color: #1c0b19;
+            font-weight: bolder;
+            /* word-spacing: 25px;
+            letter-spacing: 15px; */
+            font-size: 70px;
+            font-family: 'Noto Serif', serif;
+        }
+
+        .card {
+            background-color: #f4e7f1;
+            color: #1c0b19;
+            transition: transform 0.3s ease-in-out;
+            animation: mymove 3s infinite;
+            background-image: url(../Images/h2.png);
+            background-repeat: repeat-y;
+            opacity: 0.95;
+        }
+
+        .card:hover {
+            transform: scale(1.09);
+        }
+
+        @keyframes mymove {
+            0% {
+                animation-delay: 5s;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+
+            25% {
+                animation-delay: 5s;
+                box-shadow: 0 4px 8px 0 #904d84, 0 6px 20px 0 #904d84;
+            }
+
+            50% {
+                animation-delay: 5s;
+                box-shadow: 0 2px 6px 0 #65325c, 0 4px 18px 0 #65325c;
+
+            }
+
+            75% {
+                animation-delay: 5s;
+                box-shadow: 0 2px 6px 0 #1c0b19, 0 4px 18px 0 #1c0b19;
+
+            }
+
+            100% {
+                animation-delay: 5s;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            }
+        }
+
+        .card_btn {
+            animation: card_btn 3s infinite;
+            transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        }
+
+        .card_btn:hover {
+            border: 2px solid #1c0b19;
+            background-color: #fff6ed;
+            color: #1c0b19;
+            transition: 1s;
+        }
+
+        @keyframes card_btn {
+            0% {
+                animation-delay: 1s;
+                border: 2px solid #1c0b19;
+            }
+
+            25% {
+                animation-delay: 1s;
+                border: 2px solid #6e3864;
+            }
+
+            50% {
+                animation-delay: 1s;
+                border: 2px solid #c46db4;
+            }
+
+            75% {
+
+                animation-delay: 1s;
+                border: 2px solid #78306b;
+            }
+
+            100% {
+                animation-delay: 1s;
+                border: 2px solid #1c0b19;
+
+            }
+        }
+
+        /* Cards Css */
+
+        /* Footer CSS */
+        footer {
+            background-color: #1c0b19;
+            color: #fff6ed;
+            margin-top: 100px;
+        }
+
+        .footer-follow-icn {
+            font-size: 40px;
+        }
+
+        .follow-insta-icn:hover {
+            color: #bc2a8d;
+            transition: 1s;
+            transition-delay: 0.5s;
+        }
+
+        .follow-pint-icn:hover {
+            color: #c8232c;
+            transition: 1s;
+            transition-delay: 0.5s;
+        }
+
+        .follow-fb-icn:hover {
+            color: #4267B2;
+            transition: 1s;
+            transition-delay: 0.5s;
+        }
+
+        .follow-twit-icn:hover {
+            color: #1DA1F2;
+            transition: 1s;
+            transition-delay: 0.5s;
+        }
+
+        /* Footer CSS */
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+
+            .navbar-brand {
+                font-size: 2.5rem;
+                color: #fff6ed;
+                transition: background-image 0.5s ease-in-out, color 0.5s ease-in-out;
+            }
+
+            #Nav-list {
+                font-size: 1.5rem;
+            }
+
+            .carousel-h-text {
+                font-size: 1.5rem;
+                /* Adjust font size for smaller screens */
+            }
+
+            .carousel-caption {
+                margin-bottom: 19%;
+                font-size: 1rem;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: #fff6ed;
+            }
+
+            .Booknow-heading {
+                font-size: 2.5rem;
+            }
+        }
+
+        @media (max-width: 461px) {
+            #Nav-list {
+                font-size: 1.5rem;
+            }
+
+        }
+
+        @media (max-width: 320px) {
+
+            .navbar-brand {
+                font-size: 1.7rem;
+            }
+
+            #Nav-list {
+                font-size: 1.2rem;
+            }
+
+        }
+
+        @media (max-width: 240px) {
+
+            .Booknow-heading {
+                font-size: 1rem;
+            }
+        }
